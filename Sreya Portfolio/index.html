@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vemula Sreyamsi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="index.css"> 
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+
+
+
+    <!-- Navigation -->
+    <nav classname="navbar">
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">Sreyamsi.</label>
+        <ul class="navbar-list">
+          <li><a href="#" class="navbar-link">Home</a></li>
+          <li><a href="#about" class="navbar-link">About</a></li>
+          <li><a href="#projects" class="navbar-link">Projects</a></li>
+          <li><a href="#skills" class="navbar-link">Skills</a></li>
+          <li><a href="#contact" class="navbar-link">Contact</a></li>
+      </ul>
+    </nav>
+  
+  
+
+    <!-- Home Section -->
+    
+    <section id="profile">
+        <div class="section__pic-container">
+          <img src="./assets/images/profile/Passport_Photo.jpeg" alt="John Doe profile picture" />
+        </div>
+        <div class="section__text">
+            <div class="hero-content">
+                <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
+                  Hello, I'm Sreyamsi.
+                </h1>
+                
+                <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+                  A passionate developer who transforms ideas into stunning experiences. I create innovative solutions that are both beautiful and user-friendly.
+                </p>
+              </div>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/Vemula_Sreyamsi_.pdf')"
+            >
+              Download CV
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+              Contact Info
+            </button>
+          </div>
+          <div id="socials-container">
+            <img
+              src="./assets/images/profile/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="location.href='https://tinyurl.com/sreyamsi-LinkedIN'"
+            />
+            <img
+              src="./assets/images/profile/github.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="location.href='https://github.com/sreyamsi'"
+            />
+          </div>
+        </div>
+      </section>
+
+
+    <!-- About Section -->
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              src="./assets/images/About/about_pic.jpeg"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="./assets/images/About/passionate.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>Passionate</h3>
+                <p>Innovative Creation <br> User Engagement.</p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="./assets/images/About/education.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Education</h3>
+                <p>Bachelor's Degree<br/>Computer Science Engineering</p>
+
+              </div>
+            </div>
+            <div class="text-container"> 
+              <p>
+                As a passionate developer, I focus on creating innovative digital solutions.
+                 With a solid background in Web development and Java programming, 
+                 I strive to build user-friendly applications. 
+                 My strong communication skills and team leadership abilities 
+                 foster effective collaboration, while my curiosity for 
+                 new technologies drives my commitment to continuous learning.
+              </p>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+
+
+<!-- Projects Section -->
+<section id="projects">
+  <p class="section__text__p1">Browse My Recent</p>
+  <h1 class="title">Projects</h1>
+  <div class="experience-details-container">
+      <div class="project-row">
+          <div class="project-container">
+              <div class="article-container">
+                  <img src="./assets/images/projects/Project01.png" alt="Project 01" class="project-img" />
+              </div>
+              <h2 class="experience-sub-title project-title">Virtual AI Assistant</h2>
+              <p class="project-description">An AI chatbot built with Python and NLP, using Flask <br> for a seamless web interface to enhance user interaction.
+
+              </p>
+              <div class="btn-container">
+                  <button class="btn btn-primary project-btn" onclick="location.href='https://github.com/sreyamsi/AI-ChatBot'">Github</button>
+                  <!-- <button class="btn btn-primary project-btn" onclick="location.href='https://yourproject1demo.com'">Live Demo</button> -->
+              </div>
+          </div>
+          <div class="project-container">
+              <div class="article-container">
+                  <img src="./assets/images/projects/Project02.png" alt="Project 02" class="project-img" />
+              </div>
+              <h2 class="experience-sub-title project-title">Smart Budget Tracker</h2>
+              <p class="project-description">The Smart Budget Tracker is a Java-based application <br> that helps users manage their finances by tracking expenses and setting budgets. It features a user-friendly interface for inputting financial data and generating spending reports.</p>
+              <div class="btn-container">
+                  <button class="btn btn-primary project-btn" onclick="location.href='https://github.com/sreyamsi/Smart_Budget_Tracker'">Github</button>
+                  <!-- <button class="btn btn-primary project-btn" onclick="location.href='https://yourproject2demo.com'">Live Demo</button> -->
+              </div>
+          </div>
+      </div>
+      <div class="project-row">
+          <div class="project-container">
+              <div class="article-container">
+                  <img src="./assets/images/projects/project03.png" alt="Project 3" class="project-img" />
+              </div>
+              <h2 class="experience-sub-title project-title">Ecommerce Website</h2>
+              <p class="project-description">This e-commerce website allows users to browse and purchase food products with smooth cart functionality and a responsive design for an enhanced shopping experience.</p>
+              <div class="btn-container">
+                  <button class="btn btn-primary project-btn" onclick="location.href='https://github.com/sreyamsi/SSPP_online_store'">Github</button>
+                  <button class="btn btn-primary project-btn" onclick="location.href='https://sri-shiva-priya-provisions.netlify.app/'">Live Demo</button>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+  
+    
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+
+        <div class="skills-content section-content">
+
+          <p class="section-subtitle">My skills</p>
+
+          <h2 class="h3 section-title">What My Programming Skills Included?</h2>
+
+          <p class="section-text">
+            I develop simple, intuitive and responsive user interface that helps users get things done with less effort
+            and time
+            with those technologies.
+          </p>
+
+          <div class="skills-toggle" data-toggle-box>
+            <button class="toggle-btn active" data-toggle-btn>Skills</button>
+
+            <button class="toggle-btn" data-toggle-btn>Tools</button>
+          </div>
+
+        </div>
+
+        <div class="skills-box" data-skills-box>
+
+          <ul class="skills-list">
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Java</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/skills/java.png" alt="TypeScript logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">HTML5</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/skills/html5.png" alt="HTML5 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">CSS3</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/skills/css3.png" alt="CSS3 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">JavaScript</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/skills/javascript.png" alt="JavaScript logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">SQL</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/skills/sql.png" alt="jQuery logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">C programming</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/skills/c.png" alt="jQuery logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Python</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/skills/python.png" alt="Bootstrap logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">React</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/skills/react.png" alt="React logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Node js</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/skills/nodejs.png" alt="Vue logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">MongoDB</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/skills/mongodb.png" alt="Firebase logo">
+                </div>
+              </div>
+            </li>
+
+
+          </ul>
+
+          <ul class="tools-list">
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Visual Studio Code</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/skills/vs-code.png" alt="Ajax logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Command Line</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/skills/command.png" alt="Command Line logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Github</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/skills/github.png" alt="Webpack logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Npm</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/skills/npm.png" alt="Npm logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Git</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/skills/git.png" alt="Git logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">MySql</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/skills/mysql.png" alt="Trello logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">MS Office</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/skills/msoffice.jpg" alt="ClickUp logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Jupyter</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/skills/jupyter.png" alt="Slack logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Figma</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/skills/figma.png" alt="Photoshop logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Google Collab</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/skills/collab.png" alt="Adobe XD logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Eclipse</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/skills/eclipse.png" alt="Adobe XD logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Netlify</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/skills/netlify.png" alt="Adobe XD logo">
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+    <div class="contact-container">
+      <div class="container-adjust">
+        <h2 class="contact-title">Let's Connect!</h2>
+        <p class="contact-description">Thank you for visiting my portfolio! <br>Feel free to reach out below.</p>
+        <div class="contact-info">
+            <div class="info-item">
+              <a href="mailto:sreyamsi08@gmail.com" title="Send me an email">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+            <div class="info-item">
+                <a href="https://tinyurl.com/sreyamsi-LinkedIN" title="Connect with me" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+            <div class="info-item">
+                <a href="https://github.com/sreyamsi" title="Walk Through my Repositories"target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+        <i class=""></i>
+        <div class="direct-contact-container">
+            <ul class="contact-list">
+                <li class="list-item"><i class="fa fa-map-marker fa-2x"></i><span class="contact-text place">Nellore, Andhra Pradesh</span></li>
+                <li class="list-item"><i class="fa fa-envelope fa-2x"></i><span class="contact-text gmail"><a href="mailto:hitmeup@gmail.com" title="Send me an email">sreyamsi08@gmail.com</a></span></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+<footer class="footer">
+  <div class="footer-content">
+    <p>&copy; Sreya. All Rights Reserved.</p>
+  </div>
+</footer>
+
+  
+<script src="index.js"></script> 
+</body>
+</html>

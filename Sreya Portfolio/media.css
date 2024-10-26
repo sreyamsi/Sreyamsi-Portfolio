@@ -1,0 +1,290 @@
+/* Responsive navbar styling */
+@media (max-width: 768px) {
+    /* Display the hamburger menu icon */
+  
+    nav{
+      padding: 8px 20px;
+    }
+  
+    nav .checkbtn {
+        display: block;
+        order: 1;
+        margin-right: 20px;
+    }
+  
+    /* Mobile menu styling */
+    nav ul {
+        position: fixed;
+        top: 50px;
+        right: -100%;
+        background-color: white;
+        width: 50%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: right 0.3s ease-in-out;
+        opacity: 0.8;
+    }
+  
+    /* Centering menu items */
+    nav ul li {
+        margin: 20px 0;
+    }
+  
+    /* Increase font size of the mobile menu links */
+    nav ul li a {
+        font-size: 20px;
+    }
+  
+    /* Display the mobile menu when checkbox is checked */
+    nav #check:checked ~ ul {
+        right: 0;
+    }
+  }
+  
+
+/* profile section */
+/* Responsive for Tablets (Max Width: 768px) */
+@media (max-width: 768px) {
+    #profile {
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center items horizontally */
+      padding: 1rem; 
+    }
+  
+    .section__pic-container {
+      height: 300px; /* Smaller image size */
+      width: 300px; /* Smaller image size */
+      margin-top: 4rem;
+    }
+  
+    .hero-title {
+      font-size: 2rem; /* Smaller title font size */
+    }
+  
+    .section-text {
+      font-size: 1.1rem; /* Smaller text size */
+    }
+  
+    .btn {
+      padding: 0.75rem 1.5rem; /* Adjust button padding */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-title {
+      font-size: 1.5rem; /* Further reduce title size */
+    }
+  
+    .section-text {
+      font-size: 1rem; /* Further reduce text size */
+    }
+  
+    .section__pic-container {
+      height: 250px; /* Even smaller image size */
+      width: 250px; /* Even smaller image size */
+    }
+  }
+
+
+  /* about section */
+  @media (max-width: 768px) {
+    /* Stack the section containers vertically */
+    .section-container {
+        flex-direction: column; 
+        align-items: center;
+    }
+  
+    /* Adjust the size of the picture container */
+    #about .section__pic-container {
+        width: 100%;
+        height: auto;
+        max-width: 300px; /* Optional max size for smaller screens */
+    }
+  
+    /* Make details containers full width */
+    .details-container {
+        width: 100%; /* Take full width */
+        margin-bottom: 1rem; /* Spacing between the containers */
+
+    }
+  
+    /* Adjust title font size */
+    .title {
+        font-size: 2rem; /* Smaller title */
+    }
+  
+    /* Adjust text size for better readability */
+    .section__text__p1 {
+        font-size: 1rem; /* Smaller paragraph */
+    }
+  
+    .text-container p {
+        font-size: 0.9rem; /* Adjust text size */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title {
+        font-size: 1.8rem; /* Further reduce title size */
+    }
+  
+    .section__text__p1 {
+        font-size: 0.9rem; /* Further reduce paragraph size */
+    }
+  
+    .details-container h3 {
+        font-size: 1.1rem; /* Adjust heading size */
+    }
+  
+    .details-container p {
+        font-size: 0.9rem; /* Adjust paragraph size */
+    }
+  
+    .text-container p {
+        font-size: 0.8rem; /* Further reduce text size */
+    }
+  }
+  
+  /*projects section  */
+  @media (max-width: 768px) {
+    .project-container {
+        width: calc(100% - 20px); /* Full width for small screens */
+    }
+  
+    .project-title {
+        font-size: 1.3em; /* Reduce title size for smaller screens */
+    }
+  
+    .project-description {
+        font-size: 0.9em; /* Reduce description size */
+    }
+  
+    .btn-container {
+        flex-direction: column; /* Stack buttons vertically */
+        align-items: center;    /* Center buttons */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .project-title {
+        font-size: 1.1em; /* Further reduce title size */
+    }
+  
+    .project-description {
+        font-size: 0.85em; /* Further reduce description size */
+    }
+  
+    .project-btn {
+        padding: 8px 16px; /* Adjust button padding */
+        font-size: 0.9em;   /* Adjust button font size */
+    }
+  }
+
+
+  /* skills section */
+
+  @media (max-width: 768px) {
+    .skills {
+      flex-direction: column; /* Stack vertically on smaller screens */
+      align-items: center; /* Center align */
+    }
+  
+    .skills-content {
+      max-width: 100%; /* Full width on smaller screens */
+      margin-right: 0; /* Remove right margin */
+      margin-bottom: 2rem; /* Add margin below */
+    }
+  
+    .skills-box {
+      max-width: 100%; /* Full width on smaller screens */
+    }
+  
+    .toggle-btn {
+      padding: 0.5rem; /* Adjust padding for smaller screens */
+      font-size: 0.9rem; /* Smaller font size */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #skills .section-title {
+      font-size: 1.5rem; /* Smaller title font size */
+    }
+  
+    #skills .section-subtitle {
+      font-size: 1.5rem; /* Smaller subtitle font size */
+    }
+  
+    #skills .section-text {
+      font-size: 0.9rem; /* Smaller text size */
+    }
+  
+    .card-icon {
+      width: 50px; /* Smaller icon size */
+    }
+  
+    .skill-card {
+      padding: 0.8rem; /* Adjust padding for smaller screens */
+    }
+  }
+
+  
+ 
+/* contact section */
+
+@media (max-width: 768px) {
+    .contact-container {
+      padding: 1rem; /* Reduce padding on smaller screens */
+    }
+  
+    .contact-title {
+      font-size: 2rem; /* Smaller title size */
+    }
+  
+    .contact-description {
+      font-size: 1rem; /* Smaller description size */
+    }
+  
+    .info-item {
+      font-size: 2rem; /* Smaller icon size */
+    }
+  
+    .list-item {
+      font-size: 0.9rem; /* Smaller font size for list items */
+    }
+  
+    .container-adjust {
+      margin-right: 0; /* Remove right margin for better fit */
+      align-items: center; /* Center items in column */
+    }
+  
+    .contact-info {
+      justify-content: center; /* Center items */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact-container img{
+      background: none; /* Remove background image */
+      background-color: #f9f9f9; /* Set background color */
+      color:black
+    }
+  
+    .contact-title {
+      font-size: 1.5rem; /* Even smaller title size */
+    }
+  
+    .contact-description {
+      font-size: 0.9rem; /* Even smaller description size */
+    }
+  
+    .info-item {
+      font-size: 1.5rem; /* Smaller icon size */
+    }
+  
+    .list-item {
+      font-size: 0.8rem; /* Smaller font size for list items */
+    }
+  }
